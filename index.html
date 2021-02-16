@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+  <h1>login system</h1>
+<style>
+    h1{
+        color: green;
+        background color:wighte;
+        margin:40px 500px;
+        border: 2px solid green;
+        box-shadow: 10px 13px 15px 6px;
+        border-radius: 10px;
+        front-size: 5px;
+        padding: 10px 10px 10px 30px ;
+        width:200px;
+        
+      }
+      form{
+      
+      border-style: solid;
+      border-radius: 15px;
+      border: 2px solid green;
+      color: green;
+      margin: 50px 400px;
+      padding-top:40px;
+      front size: 10px;
+      line-height: 3.5em;
+      box-shadow: 10px 13px 15px 9px;
+
+      }
+    #redelement{
+
+        width: 300px;
+        padding:  50px 70px;
+        margin: 20px 400px;
+        }
+</style>
+
+<form action="backend.python" id="redelement">
+
+     name:<input type="text" placeholder="name"><br>
+    password:<input type="number" name="password" placeholder="password"><br>
+    email:<input type="text" name="email" placeholder="email"><br>
+    <input type="submit" name="submite" >
+
+
+
+
+</form>
+
+
+
+
+{% endblock %}
